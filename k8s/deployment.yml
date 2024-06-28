@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: catalog-service
-          image: ymji6922/catalog-service:0.1
+          image: ghcr.io/jiyoungmin20/catalog-service:latest
           imagePullPolicy: IfNotPresent
           lifecycle:
             preStop:
